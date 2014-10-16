@@ -1,9 +1,5 @@
-# My New Blog!
+# Ivan's Blog
 
-I've got a lot to say, and now I have a place to say it!!!!!
+This is a performance improvement test on a blog of 100 posts, each with 100 comments and 100 replies. Currently added are infinite scrolling so that only the first 10 articles are loaded along with eager loading and caching. What is still needed is a "load comments" button for the comments.
 
-Read all my amazing posts!!!!! You can load them into the app with: `rake load:blog`
-
-Since I know you want to read them all, I designed my page to show EVERYTHING on the front page of the site!!!!!
-
-I know it is a little slow (but totes worth it!!!!)... _Do you know how I can make it faster?_
+http://loadimpact.com/test/view/1821763
