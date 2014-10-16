@@ -6,6 +6,13 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
+<div class="nav">
+<h1>Ivan the Terrible's Blog</h1>
+
+<div id="infinite-scrolling">
+  <%= will_paginate @posts %>
+</div>
+</div>
 <body>
 
 <%= yield %>
